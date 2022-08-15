@@ -1,38 +1,72 @@
 .App {
-  text-align: center;
+    text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a {
+    color: #0a0a0a;
+    padding: 11px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #2196F3;
+    border-radius: 6px;
+    margin: 15px;
+    box-shadow: #0a0a0a 0px 0px 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a:hover {
+    background-color: #0a0a0a;
+    color: #2196F3;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+    background-color: #bdc6ce;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
 }
 
-.App-link {
-  color: #61dafb;
+table {
+    border-collapse: collapse;
+    width: 50%;
+    background: #2196F3;
+    color: #fff;
+    border-radius: 15px;
+    box-shadow: #0a0a0a 0px 0px 10px;
+    margin: 5px;
+    padding: 15px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+thead {
+    background: #0a0a0a;
+    color: #fff;
+    border-radius: 15px;
+    box-shadow: #0a0a0a 0px 0px 10px;
+    margin: 5px;
+    padding: 15px;
+}
+
+thead:hover {
+    background: #411a1a;
+    color: #fff;
+}
+
+tbody {
+    background: #e5e3f0;
+    color: rgb(20, 20, 20);
+    border-radius: 15px;
+    box-shadow: #0a0a0a 0px 0px 10px;
+    margin: 5px;
+    padding: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+}
+
+tbody:hover {
+    background: #d31c1c;
+    color: #e1dfe6;
+    border-radius: 15px;
 }
